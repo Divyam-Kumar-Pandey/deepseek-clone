@@ -10,6 +10,11 @@ import phone_icon_dull from "./phone_icon_dull.svg";
 import qrcode from "./qrcode.png";
 import new_icon from "./new_icon.svg";
 import profile_icon from "./profile_icon.svg";
+import arrow_icon from "./arrow_icon.svg";
+import arrow_icon_dull from "./arrow_icon_dull.svg";
+import pin_icon from "./pin_icon.svg";
+import deepthink_icon from "./deepthink_icon.svg";
+import search_icon from "./search_icon.svg";
 
 export const assets = {
   logo_text,
@@ -24,4 +29,9 @@ export const assets = {
   qrcode,
   new_icon,
   profile_icon,
+  arrow_icon,
+  arrow_icon_dull,
+  pin_icon,
+  deepthink_icon,
+  search_icon,
 };
