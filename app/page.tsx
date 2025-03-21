@@ -4,6 +4,7 @@ import { useState } from "react";
 import { assets } from "@/assets/assets";
 import Sidebar from "@/components/Sidebar";
 import PromptBox from "@/components/PromptBox";
+import Message from "@/components/Message";
 
 export default function Home() {
 
@@ -35,7 +36,7 @@ export default function Home() {
               <div
                 className="relative flex flex-col items-center justify-start w-full mt-20 max-h-screen overflow-y-auto"
               >
-
+                <Message role="ai" content="Hello, how can I help you today?" />
 
               </div>
             )

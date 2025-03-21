@@ -15,6 +15,13 @@ import arrow_icon_dull from "./arrow_icon_dull.svg";
 import pin_icon from "./pin_icon.svg";
 import deepthink_icon from "./deepthink_icon.svg";
 import search_icon from "./search_icon.svg";
+import three_dots from "./three_dots.svg";
+import pencil_icon from "./pencil_icon.svg";
+import delete_icon from "./delete_icon.svg";
+import copy_icon from "./copy_icon.svg";
+import regenerate_icon from "./regenerate_icon.svg";
+import like_icon from "./like_icon.svg";
+import dislike_icon from "./dislike_icon.svg";
 
 export const assets = {
   logo_text,
@@ -34,4 +41,11 @@ export const assets = {
   pin_icon,
   deepthink_icon,
   search_icon,
+  three_dots,
+  pencil_icon,
+  delete_icon,
+  copy_icon,
+  regenerate_icon,
+  like_icon,
+  dislike_icon,
 };
