@@ -22,6 +22,7 @@ export async function POST(req: NextRequest){
     const body = JSON.stringify(payload);
     const {data, type} = wh.verify(body, svixHeaders as Record<string, string>) as {data: any, type: string};
 
+    console.log("data:", data);
 
     const userData = {
         _id: data.id,
